@@ -1,5 +1,5 @@
 # Usb_Cam
-** It was created for rosbag record the usb_camera dates **  
+**It was created for rosbag record the usb_camera dates**  
 Videocapture (usb_camera) transport to  Ros( noetic )  
 ## How to use it   
 ```shell
@@ -14,6 +14,6 @@ Videocapture (usb_camera) transport to  Ros( noetic )
 #Start the program   
 `rosrun usb_camera`   
 ```
-## about 
+## About 
 you can type `roscore` && `rostopic list` to watch the image node   
 for the less space to keep it in your disks ,you can `rosbag record ` the topic `usb_cam/image_raw/theDepthCompress`
