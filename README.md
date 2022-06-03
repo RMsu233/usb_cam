@@ -4,15 +4,15 @@ Videocapture (usb_camera) transport to  Ros( noetic )
 ## How to use it   
 ```shell
 #clone it to your workspace   
-`git clone https://github.com/RMsu233/usb_cam.git`   
+git clone https://github.com/RMsu233/usb_cam.git   
 #Recompile it   
-`catkin_make`
+catkin_make
 #Start the ros   
-`roscore`   
+roscore   
 #Update your ros environments   
-`source /opt/ros/noetic/setup.bash`   
+source /opt/ros/noetic/setup.bash   
 #Start the program   
-`rosrun usb_camera`   
+rosrun usb_camera   
 ```
 ## About 
 you can type `roscore` && `rostopic list` to watch the image node   
