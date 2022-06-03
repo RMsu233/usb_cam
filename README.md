@@ -1,4 +1,4 @@
-# usb_cam
+# Usb_Cam
 It was created for rosbag record the usb_camera dates  
 Videocapture (usb_camera) transport to  Ros( noetic )  
 ## How to use it   
@@ -6,6 +6,7 @@ Videocapture (usb_camera) transport to  Ros( noetic )
 #clone it to your workspace   
 `git clone https://github.com/RMsu233/usb_cam.git`   
 #Recompile it   
+`catkin_make`
 #Start the ros   
 `roscore`   
 #Update your ros environments   
